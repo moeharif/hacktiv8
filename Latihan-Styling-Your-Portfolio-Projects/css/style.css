@@ -1,0 +1,64 @@
+ul {
+    float:right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+  
+li a:hover {
+    background-color: #d4d1d1;
+}
+
+table,tr,td{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black ;
+    padding: 5px;
+    background-color: white;
+}
+
+.posisi{
+    position: absolute;
+    left: 10px;
+    right: 0;
+    top: 80px;
+    bottom: 0;
+}
+
+.posisi2{
+    position: absolute;
+    left: 510px;
+    right: 0;
+    top: 80px;
+    bottom: 0;
+}
+
+.container{
+    position: absolute;
+    top: 300px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button{
+    color: white;
+    background: green;
+    width: 1310px;
+}
